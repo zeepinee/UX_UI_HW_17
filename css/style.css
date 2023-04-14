@@ -1,0 +1,59 @@
+.heroGridArea {
+    /* margin: 0px 5%; */
+    /* display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "heroBanner navBar"
+    "heroBanner navBar"; */
+}
+#heroBanner {
+/* height: 200px; */
+background-color: #F8EDB5;
+grid-area: heroBanner;
+/* padding: 70px 600px 70px 150px; */
+border: 2px hotpink;
+}
+
+#logoHed {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo-lockup {
+    width: 100px;
+    height: 100px;
+    padding-right: 30px;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Aboreto', cursive;
+    margin: 0px;
+}
+p1 {
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+}
+img {src: url("../images/Logo.png");
+}
+
+#navBar {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5%;
+    grid-area: navBar;
+}
+#navigation {
+    font-family: 'Aboreto', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.navHeroBanner {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
