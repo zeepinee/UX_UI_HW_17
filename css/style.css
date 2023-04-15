@@ -10,7 +10,6 @@
 #heroBanner {
 /* height: 200px; */
 background-color: #F8EDB5;
-grid-area: heroBanner;
 /* padding: 70px 600px 70px 150px; */
 border: 2px hotpink;
 }
@@ -44,7 +43,7 @@ img {src: url("../images/Logo.png");
     display: flex;
     flex-direction: column;
     margin: 0px 5%;
-    grid-area: navBar;
+    background-color: rebeccapurple;
 }
 #navigation {
     font-family: 'Aboreto', cursive;
