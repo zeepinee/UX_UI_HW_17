@@ -10,8 +10,9 @@
 #heroBanner {
 /* height: 200px; */
 background-color: #F8EDB5;
-/* padding: 70px 600px 70px 150px; */
 border: 2px hotpink;
+height: 274px;
+padding: 38px 50px 50px 50px;
 }
 
 #logoHed {
@@ -25,6 +26,10 @@ border: 2px hotpink;
     width: 100px;
     height: 100px;
     padding-right: 30px;
+}
+
+body {
+    margin: 0px;
 }
 
 h1 {
@@ -42,17 +47,47 @@ img {src: url("../images/Logo.png");
 #navBar {
     display: flex;
     flex-direction: column;
-    margin: 0px 5%;
-    background-color: rebeccapurple;
+    background-color: #19133A;
+    margin: 0;
+    height: 570px;
+    padding: 50px 0px 80px 40px;
 }
 #navigation {
-    font-family: 'Aboreto', cursive;
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.navItem {
+    font-family: 'Aboreto', cursive;
+    font-size: 32px;
+    color: white;
+    text-decoration: underline;
 }
 
 .navHeroBanner {
     display: grid;
     grid-template-columns: 80% 20%;
+}
+
+.navContact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    background-color: #966AB0;
+    height: 274px;
+    width: 100%;
+    padding: 191px 20px 23px 42px;
+    box-sizing: border-box;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
