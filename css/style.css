@@ -1,14 +1,9 @@
-.heroGridArea {
-    /* margin: 0px 5%; */
-    /* display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: 
-    "heroBanner navBar"
-    "heroBanner navBar"; */
+body {
+    margin: 0px;
+    background-color: #74B1B5;
 }
+
 #heroBanner {
-/* height: 200px; */
 background-color: #F8EDB5;
 border: 2px hotpink;
 height: 274px;
@@ -28,9 +23,6 @@ padding: 38px 50px 50px 50px;
     padding-right: 30px;
 }
 
-body {
-    margin: 0px;
-}
 
 h1 {
     font-size: 100px;
@@ -69,6 +61,7 @@ img {src: url("../images/Logo.png");
 .navHeroBanner {
     display: grid;
     grid-template-columns: 80% 20%;
+    height: 362px;
 }
 
 .navContact {
@@ -90,4 +83,47 @@ img {src: url("../images/Logo.png");
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+#workBanner {
+    display: flex;
+    flex-direction: row;
+    height: 606px;
+}
+
+.workBannerColumn {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.buttonText {
+    transform: rotate(270deg) translate(298px, -210px);
+    font-family: 'Aboreto', cursive;
+    font-size: 32px;
+    width: 600px;
+}
+
+#performanceMarketing {
+    background-color: #966AB0;
+    color: white;
+}
+
+#print {
+    color: white;
+}
+
+#digital {
+    background-color: #19133A;
+    color: white;
+}
+
+#broadcast {
+    background-color: #F8EDB5;
+}
+
+#uxDesign {
+    background-color: #C4FBFF;
 }
